@@ -1,0 +1,19 @@
+<div class="row>
+	<div class="col-lg-3 col-md-4 col-sm-6" style="background-color:yellow; border: 1px solid">
+	     col-lg-3 col-md-4 col-sm-6
+	</div>
+<div class="col-lg-3 col-md-4 col-sm-6" style="background-color:yellow; border: 1px solid">
+	     col-lg-3 col-md-4 col-sm-6
+	</div>
+<div class="col-lg-3 col-md-4 col-sm-6" style="background-color:yellow; border: 1px solid">
+	     col-lg-3 col-md-4 col-sm-6
+	</div>
+<div class="col-lg-3 col-md-4 col-sm-6" style="background-color:yellow; border: 1px solid">
+	     col-lg-3 col-md-4 col-sm-6
+	</div>
+
+So basically these 4 divs gives up 4 columns. The lg3 will show all 4 columns on the desktop screen 
+then the md 4 will show and adjust the screen to tablet size
+and the sm 6 will further adjust to a smartphone size
+
+from lesson 70 in bootsrap grid layout system

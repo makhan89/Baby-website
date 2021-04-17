@@ -1,0 +1,133 @@
+body {
+  font-family: "Montserrat";
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+/*in order to target ID from the html we need to use # in css*/
+.container-fluid {
+  padding: 3% 15%
+}
+
+h1 {
+  font-family: "Montserrat";
+  font-size: 4rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat-bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat-bold";
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+}
+
+/*this is used to check the padding and align everything within the navbar so the website looks aligned */
+.navbar-brand {
+  font-family: "ubunt";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* download button */
+.download-button {
+  margin: 5% 3% 5% 0
+}
+
+/* Title image */
+.title-image {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30;
+}
+/* in order for z index to work, position must not be static . should be absolute or relative or fixd. abosulte takes the element out of html flow while relative keeps the element within the html flow */
+
+
+/* used to rotate an image */
+/*
+          features section */
+#features {
+  padding: 7% 15%;
+
+}
+
+.feature1 {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature2 {
+  text-align: center;
+  padding: 5%;
+}
+
+.feature3 {
+  text-align: center;
+  padding: 5%;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/* hover is a sudo class. used to change color when mouse hovers over icons */
+/* margin-bottom: 1rem; here makes a space between the icon and the text below it */
+/* Testimonial Section */
+#testimonials {
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-image {
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.carousel-item {padding: 7% 15%;}
+
+#press{background-color: #ef8172;
+      text-align: center;
+    padding-bottom: 3%;}
+
+
+    .presslogo{width:15%;
+              margin: 20px 20px 50px;}
+
+
+/* price section */
+
+#pricing{padding:100px;}
